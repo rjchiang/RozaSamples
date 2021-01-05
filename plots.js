@@ -28,6 +28,10 @@ function init() {
 
 init();
 
+// function optionChanged(newSample) {
+//   console.log(newSample);
+// }
+
 function optionChanged(newSample) {
   buildMetadata(newSample);
   buildCharts(newSample);
@@ -44,3 +48,5 @@ function buildMetadata(sample) {
     PANEL.append("h6").text(result.location);
   });
 }
+
+// Skill Drill 
